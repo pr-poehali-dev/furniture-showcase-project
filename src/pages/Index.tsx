@@ -4,21 +4,21 @@ import AboutSection from "@/components/AboutSection";
 import ServicesSection from "@/components/ServicesSection";
 import ProductsSection from "@/components/ProductsSection";
 import MarketplaceSection from "@/components/MarketplaceSection";
+import LogisticsSection from "@/components/LogisticsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen font-furniture">
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <main>
-        <Hero />
-        <AboutSection />
-        <ServicesSection />
-        <ProductsSection />
-        <MarketplaceSection />
-        <ContactSection />
-      </main>
+      <Hero />
+      <AboutSection />
+      <ServicesSection />
+      <ProductsSection />
+      <MarketplaceSection />
+      <LogisticsSection />
+      <ContactSection />
       <Footer />
     </div>
   );
